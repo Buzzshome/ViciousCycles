@@ -1,0 +1,66 @@
+.home__splash {
+	background-image: url("./images/home_splash.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	font-weight: bold;
+	text-align: center;
+	
+	
+	
+	}
+
+		.button--filled {
+			margin: 16px;
+			color: rgb(134, 134, 134);
+			font-size: 0.9em;
+			text-transform: uppercase;
+			padding: 8px 32px;
+			letter-spacing: 2px;
+			transition: 0.2s;
+			
+		}
+	}
+}
+
+.home__info {
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	min-height: 200px;
+	
+}
+
+.home__green {
+	display:flex;
+	padding-top: 128px;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background:rgb(22, 21, 21);
+	color: rgb(145, 134, 134);
+	
+}
+
+
+.hex-block {
+		background: #FAFAFA;
+		max-width: 800px;
+		margin: 64px auto;
+		display: flex;
+		align-items: center;
+		
+		
+		
+    }
+	}
+
+	.hex-block--reverse{
+		flex-direction: row-reverse; 
+	}
