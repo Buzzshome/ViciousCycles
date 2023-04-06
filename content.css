@@ -1,5 +1,20 @@
-.home {
+.header {
+	background-image: url(".\images\vicious-cycles-logo.png");
 	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	position: relative;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	font-weight: bold;
+	text-align: center;
+	clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+	
+
+}
+.home__2 {
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-color: aquamarine;
@@ -25,6 +40,11 @@
 			transition: 0.2s;
 			
 		}
-	}
-}
 
+footer {
+	margin: 16px;
+	color: black;
+	font-size: 2.5em;
+	padding: 3%;
+	grid-column: auto;
+}
