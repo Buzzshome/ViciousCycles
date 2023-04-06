@@ -11,6 +11,7 @@
 <body>
    
 	<header id="header"  class="header--light">
+		<img src="vicious-cycles-logo.png" alt="Logo image">
 		<nav>
 			<ul>
 				<li class="">
@@ -40,11 +41,12 @@
 				</li>
 			</ul>
 		</nav>
+		
 	</header>
 
 	<main>
 		<section class="home__2">
-			<h2>Vicious</h2>
+			<h2>Vicious Cycles</h2>
 			<p>The Future of Motorbikes</p>
 			<p>Today</p>
 			<div class="call-to-action">
@@ -54,10 +56,54 @@
 		</section>
 
 		
-		</section>
+		<body>
+			<form id="theForm">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name"><br>
+							
+				<label for="phone">Phone:</label>
+				<input type="tel" id="phone" name="phone"><br>
+
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email"><br>
+		
+				<label for="message">Describe what you want from us:</label>
+				<textarea id="message" name="message"></textarea><br>
+				<label for="checkbox1"><input type="checkbox" id="checkbox1" name="checkbox[]" value="option1"> Do you want an email?</label><br>
+				<label for="checkbox2"><input type="checkbox" id="checkbox2" name="checkbox[]" value="option2"> Do you want a phone call?</label><br>
+				<p>How do you want us to contact you:</p><br>
+				<label for="radio1"><input type="radio" id="radio1" name="radio" value="option1">Phone</label><br>
+				<label for="radio2"><input type="radio" id="radio2" name="radio" value="option2">Email</label><br>
+		
+				<label for="Contact">Choose what type of bike you are looking for:</label>
+				<select id="Contact" name="contactOpt">
+					<option value="CustomM">Custom Motorcycle</option>
+					<option value="CustomB">Custom Bike</option>
+					<option value="Electric">Electric Bike</option>
+					<option value="Mountain">Mountain Bike</option>
+					<option value="Motorcycle">Motorcycle</option>
+					<option value="Beach">Beach</option>
+				</select><br>
+		
+				<input type="submit" value="Submit">
+			</form>
+		
+			<a href="index.html">
+				<button>Home Page</button>
+			</a>
+		</body>
+		
 	</main>
 
+
 	<footer>
+		
+		<p>Vicious Cycles</p>
+		<p>123 Main St.</p>	
+		<p>Anywhere, NC 27000</p>	
+		<p>Phone: (919) 123-4567 Fax: (919) 123-9875</p>	
+		<p>We are also on Twitter and Facebook.</p>
+		
 		<ul>
 			<li><a href=""><i class=""></i> </a></li>
 			<li><a href=""><i class=""></i> </a></li>
